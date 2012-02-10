@@ -1,0 +1,33 @@
+.banner {
+		height: 100px;
+		width: 85%;
+		border: 5px solid red;
+		background-color: white;
+		
+		
+}
+
+.category {
+        height: 500px;
+        margin-top: 20px;
+        width: 15%;
+        float: left;
+        border: 5px solid blue;
+}
+
+.main {
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 60%;
+        float: left;
+        border: 5px solid yellow;
+}
+
+.right {
+        height: 500px;
+        margin-top: 20px;
+        width: 14%;
+        float: right;
+        border: 5px solid green;
+}
