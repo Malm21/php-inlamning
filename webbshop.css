@@ -1,5 +1,6 @@
 body {
-        background-color: 
+        background-color:
+        height: 2000px;
 }
 .banner {
 		height: 100px;
@@ -36,6 +37,10 @@ body {
         margin: 10px;
         font-size: 21px;
         font-family: cursive;
+        
+}
+.kategorier a {
+    text-decoration: none;
 }
 #sökformulär {
         margin-left: 15px;
@@ -50,7 +55,7 @@ body {
 }
 
 .main {
-        height: 500px;
+        height: 600px;
         margin-top: 20px;
         margin-left: 50px;
         width: 60%;
@@ -59,19 +64,94 @@ body {
         background-color: lightgray;
 }
 
-#bild {
+.bild {
         border: 5px solid blue;
-        height: 300px;
+        height: 275px;
         width: 300px;
-        margin-left: 15px;
+        margin-left: 50px;
         background-color: pink;
+        float: left;
+        
 }
-
+.beskrivning {
+        border: 5px solid green;
+        height: 175px;
+        width: 350px;
+        margin-top: -275px;
+        margin-left: 450px;
+        float: left;
+        font-family: calibri;
+        font-size: 11px;
+        
+        background-color: ;
+}
+.artikelnummer {
+        font-weight: cursive;
+        margin-top: 60px;
+        margin-left: 180px;
+}        
+.laggtill {
+        border: 5px solid green;
+        height: 30px;
+        width: 120px;
+        margin-top: -40px;
+        margin-left: 680px;
+        float: left;
+        font-family: calibri;
+        font-size: 11px;
+        
+        background-color: ;
+}
+.storlek {
+        border: 5px solid green;
+        height: 30px;
+        width: 120px;
+        margin-top: -40px;
+        margin-left: 545px;
+        float: left;
+        font-family: calibri;
+        font-size: 11px;
+        
+        background-color: ;
+}
+.recensioner {
+        border: 5px solid red;
+        height: 150px;
+        width: 750px;
+        margin-top: 30px;
+        margin-left: 50px;
+        float: left;
+        background-color: lightgreen;
+}
+.postcomment {
+        border: 5px solid purple;
+        height: 50px;
+        width: 750px;
+        margin-top: 20px;
+        margin-left: 50px;
+        float: left;
+        background-color: lightblue;
+}
 .annons {
         height: 500px;
         margin-top: 20px;
-        width: 14%;
+        width: 17%;
         float: right;
         border: 5px solid green;
         background-color: lightgrey;
 }
+.kundvagn {
+        height: 130px;
+        width: 220px;
+        border: 5px solid blue;
+        margin-left: 13px;
+        margin-top: 15px;
+        background-color: pink;
+}
+.popular {
+        height: 300px;
+        width: 220px;
+        border: 5px solid purple;
+        margin-left: 13px;
+        margin-top: 15px;
+        background-color: navajowhite;
